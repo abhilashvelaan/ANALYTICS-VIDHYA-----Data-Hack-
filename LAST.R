@@ -1,8 +1,8 @@
 #importing the TRAIN data
-train = read.csv("E:/EXTRA/@AV/DATAHACK- ROUND2/train_jDb5RBj.csv")
+train = read.csv("/DATAHACK- ROUND2/train_jDb5RBj.csv")
 
 #importing the TEST data
-test = read.csv("E:/EXTRA/@AV/DATAHACK- ROUND2/test_dan2xFI.csv")
+test = read.csv("/DATAHACK- ROUND2/test_dan2xFI.csv")
 
 #checking if any NA values are there
 colSums(is.na(train))  #NO NA VALUES 
